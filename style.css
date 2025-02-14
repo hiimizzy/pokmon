@@ -12,52 +12,53 @@ body{
 
 .form{
     position: absolute;
-
     width: 65%;
-    top: 66%;
-    left: 12.5%;
+    top: 67%;
+    left: 14%;
 }
 
 .input_search{
-    width: 100%;
-    padding: 4%;
+    width: 90%;
+    padding: 3%;
     outline: none;
     border: 2px solid rgb(109, 108, 108);
     border-radius: 5px;
     font-weight: 600;
     font-size: clamp(8px,5vw,1rem); /*font siz responsiva*/
-    box-shadow: -3px 4px 0 #888, -5px 7px 0 #333 ;
+    box-shadow: -2px 3px 0 #888, -4px 6px 0 #333 ;
 }
 
 .pokemon_data{
     position: absolute;
     font-weight: 600;
     font-size: clamp(8px,5vw,25px);
-    color: rgb(160, 157, 157);
+    color: rgb(94, 91, 91);
     top: 54.5%;
     right:27%;
 
 }
 
 .buttons{
-    bottom: 10%;
+    bottom: 11.4%;
     left: 50%;
     width: 65%;
     display: flex;
     transform: translate(-57%,0);
+   
     gap: 10px;
     position: absolute;
 }
 
 .button{
-    width: 50%;
-    padding: 4px;
+    width: 70%;
+    padding: 10px;
+    
     font-size: clamp(8px 5vw 1rem);
-    font-weight: 600;
-    border: 2px solid black;
+    font-weight: 700;
+    border: 2px solid rgba(0, 0, 0, 0.61);
     color: white;
     background-color: #444;
-    
+    box-shadow: -1px 2px 0 #6d6c6c, -2px 4px 0 #333 ;
 }
 
 
@@ -71,17 +72,17 @@ body{
     width: 100%;
     max-width: 460px;
 }
-.imgpokemon{
+.img{
     position: absolute;
-    bottom: 55%;
+    bottom: 50%;
     left: 50%;
     transform: translate(-63%,20%);
     height: 18%;
 }
 main{
-    
+     
     display: inline-block;
-    margin-top: 2%;
-    padding: 15px;
+    margin-top: 1%;
+    padding: 10px;
     position: relative;
 }
